@@ -117,3 +117,22 @@ padding-bottom:3%;
   width:15%;
   margin:20px 20px 50px;
 }
+
+/*
+carousel*/
+
+.carousel-item{
+padding:7% 15%;
+}
+/*
+
+pricing section*/
+#pricing{
+padding:100px;
+text-align:center;
+}
+
+.pricing-column{
+padding: 3% 2%;
+
+}
