@@ -16,10 +16,7 @@ background-color : #ff4c68
   padding:3% 15%;
 }
 
-.rotate{
-  /*-webkit-transform:rotate(25deg);*/
-  transform: rotate(25deg)
-}
+
 
 body{
   font-family: 'Montserrat-Black, sans-serif';
@@ -58,6 +55,16 @@ title-image*/
 
 .title-image{
  width:60%;
+  transform: rotate(25deg);
+
+}
+
+
+ .title-image{
+   position:static;
+   transform:rotate(10deg);
+
+ }
 }
 
 /*
@@ -65,6 +72,8 @@ features*/
 
 #features{
 padding: 7% 15%;
+background-color: #fff;
+
 }
 
 .icon{
@@ -136,3 +145,31 @@ text-align:center;
 padding: 3% 2%;
 
 }
+
+/*CTA*/
+#cta{
+  background-color:#ff4c68;
+  color:#fff;
+  padding:7% 15%;
+  text-align:center;
+}
+.cta-heading{
+  font-family:"Montserrat-Black";
+  font-size: 3.5rem;
+  line-height:1.5;
+}
+/*Footer*/
+
+#footer{
+padding:7% 15%;
+text-align:center;
+}
+
+.fa{
+margin:20px 10px;
+}
+@media (max-width:1028px{
+
+ #title{
+  text-align:center;
+ }
